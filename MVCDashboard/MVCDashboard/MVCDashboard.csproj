@@ -171,10 +171,19 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CalendarController.cs" />
+    <Compile Include="Controllers\ChartsController.cs" />
+    <Compile Include="Controllers\ExamplesController.cs" />
+    <Compile Include="Controllers\FormsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LayoutController.cs" />
+    <Compile Include="Controllers\MailBoxController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\QuoteController.cs" />
+    <Compile Include="Controllers\TablesController.cs" />
+    <Compile Include="Controllers\UserInterfaceController.cs" />
+    <Compile Include="Controllers\WidgetsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1112,6 +1121,39 @@
     <Content Include="Views\Quote\Edit.cshtml" />
     <Content Include="Views\Quote\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutBackOffice.cshtml" />
+    <Content Include="Views\Calendar\Index.cshtml" />
+    <Content Include="Views\Widgets\Index.cshtml" />
+    <Content Include="Views\Charts\ChartJs.cshtml" />
+    <Content Include="Views\Charts\Morris.cshtml" />
+    <Content Include="Views\Charts\Flot.cshtml" />
+    <Content Include="Views\Charts\Inline.cshtml" />
+    <Content Include="Views\Layout\Boxed.cshtml" />
+    <Content Include="Views\Layout\CollapsedSidebar.cshtml" />
+    <Content Include="Views\Layout\Fixed.cshtml" />
+    <Content Include="Views\Layout\TopNav.cshtml" />
+    <Content Include="Views\Forms\Advanced.cshtml" />
+    <Content Include="Views\Forms\Editors.cshtml" />
+    <Content Include="Views\Forms\General.cshtml" />
+    <Content Include="Views\Tables\Data.cshtml" />
+    <Content Include="Views\Tables\Simple.cshtml" />
+    <Content Include="Views\MailBox\Compose.cshtml" />
+    <Content Include="Views\MailBox\MailBox.cshtml" />
+    <Content Include="Views\MailBox\ReadMail.cshtml" />
+    <Content Include="Views\UserInterface\Buttons.cshtml" />
+    <Content Include="Views\UserInterface\General.cshtml" />
+    <Content Include="Views\UserInterface\Icons.cshtml" />
+    <Content Include="Views\UserInterface\Modals.cshtml" />
+    <Content Include="Views\UserInterface\Sliders.cshtml" />
+    <Content Include="Views\UserInterface\TimeLine.cshtml" />
+    <Content Include="Views\Examples\NoFound.cshtml" />
+    <Content Include="Views\Examples\Error.cshtml" />
+    <Content Include="Views\Examples\Blank.cshtml" />
+    <Content Include="Views\Examples\Invoice.cshtml" />
+    <Content Include="Views\Examples\InvoicePrint.cshtml" />
+    <Content Include="Views\Examples\Lockscreen.cshtml" />
+    <Content Include="Views\Examples\Login.cshtml" />
+    <Content Include="Views\Examples\Profile.cshtml" />
+    <Content Include="Views\Examples\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -1124,6 +1166,7 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

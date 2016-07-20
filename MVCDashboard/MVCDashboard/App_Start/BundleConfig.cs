@@ -30,6 +30,20 @@ namespace MVCDashboard
             bundles.Add(new StyleBundle("~/Content/plugins").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            //main
+
+            bundles.Add(new StyleBundle("~/Content/Admin").Include(
+                    "~/Content/bootstrap/css/bootstrap.css",
+                    "~/Content/dist/css/AdminLTE.min.css",
+                    "~/Content/dist/css/skins/_all-skins.min.css",
+                    "~/Content/plugins/iCheck/flat/blue.css ",
+                    "~/Content/plugins/morris/morris.css",
+                    "~/Content/plugins/jvectormap/jquery-jvectormap-1.2.2.css",
+                    "~/Content/plugins/datepicker/datepicker3.css",
+                    "~/Content/plugins/daterangepicker/daterangepicker-bs3.css",
+                    "~/Content/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css"
+                ));
         }
     }
 }
